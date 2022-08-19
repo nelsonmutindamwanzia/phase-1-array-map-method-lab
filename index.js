@@ -13,7 +13,7 @@ const tutorials = [
 
 const titleCased = () => {
   return tutorials.map((line) => {
-    const token = line.split (" ");
+    const token = line.split (" "); //iterate through words using line.split(" ") command
     const cappedToken = token.map (
       (token) => token.charAt (0).toUpperCase() + token.slice (1)
     );
